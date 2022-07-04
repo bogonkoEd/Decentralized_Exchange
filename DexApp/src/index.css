@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Gradients generated on csshero.org/mesher/ */
+
+.gradient-bg-welcome {
+  background-color:hsla(240,100%,5%,1);
+background-image:
+radial-gradient(at 100% 84%, hsla(126,79%,30%,1) 0px, transparent 50%),
+radial-gradient(at 0% 24%, hsla(289,100%,42%,1) 0px, transparent 50%);
+}
+
+
+.eth-card {
+  background-color:#99ffcf;
+  background-image:
+  radial-gradient(at 49% 47%, hsla(77,63%,69%,1) 0px, transparent 50%),
+  radial-gradient(at 21% 85%, hsla(209,80%,66%,1) 0px, transparent 50%),
+  radial-gradient(at 30% 31%, hsla(97,76%,62%,1) 0px, transparent 50%),
+  radial-gradient(at 85% 98%, hsla(135,72%,66%,1) 0px, transparent 50%),
+  radial-gradient(at 78% 74%, hsla(110,65%,71%,1) 0px, transparent 50%),
+  radial-gradient(at 50% 60%, hsla(181,77%,78%,1) 0px, transparent 50%),
+  radial-gradient(at 93% 41%, hsla(214,72%,61%,1) 0px, transparent 50%);
+}
+.gradient-bg-form {
+  background-color:hsla(285,100%,6%,1);
+background-image:
+radial-gradient(at 17% 39%, hsla(285,100%,31%,1) 0px, transparent 50%),
+radial-gradient(at 72% 38%, hsla(285,100%,31%,1) 0px, transparent 50%);
+}
+
+.text-gradient {
+  background-color: #fff;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
