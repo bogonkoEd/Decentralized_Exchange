@@ -22,7 +22,7 @@ const Navbar = () => {
         <img src={logo} alt="DexApp" className="w-32px h-32px cursor-pointer" />
       </div>
       <ul className='text-white md:flex hidden list-none flex-row justify-end items-center flex-initial'>
-        {["Exchange","Wallets"].map((item,index)=>(
+        {["Transactions","Wallets"].map((item,index)=>(
           <NavbarItem key={item + index} title={item} />
         ))}
         <li className='bg-[#4ade80] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#16a34a]'>
@@ -39,7 +39,7 @@ const Navbar = () => {
             <li className='text-xl w-full my-2'>
               <AiOutlineClose onClick={()=> setToggleMenu(false)} />
             </li>
-            {["Exchange","Wallets"].map((item,index)=>(
+            {["Transactions","Wallets"].map((item,index)=>(
           <NavbarItem key={item + index} title={item} classProps="my-2 text-lg" />
         ))}
           </ul>
