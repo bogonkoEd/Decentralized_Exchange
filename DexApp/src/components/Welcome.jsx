@@ -65,7 +65,7 @@ const Input =({placeholder,name,type,value,handleChange}) => (
             <Input placeholder="Message" name="message" type="text " handleChange={()=>{}} />
             <div className='h-[2px] w-full bg-white my-3' /> 
 
-            {true ? (
+            {false ? (
               <Loader />
             ) : (
               <button 
